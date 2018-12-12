@@ -1,25 +1,22 @@
 {
-  "name": "quill-image-extend-module",
-  "version": "1.1.2",
-  "description": "plugin for vue-quill-editor to upload image",
+  "name": "laoganma-quill-image-extend-module",
+  "version": "1.0.0",
+  "description": "upload pic and compress",
   "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NextBoy/quill-image-extend-module.git"
+    "url": "git+https://github.com/zhangguangyi/quill-image-extend-module.git"
   },
-  "keywords": [
-    "quill",
-    "quill-upload",
-    "quill-image",
-    "drop"
-  ],
-  "author": "nextboy",
+  "author": "laoganma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NextBoy/quill-image-extend-module/issues"
+    "url": "https://github.com/zhangguangyi/quill-image-extend-module/issues"
   },
-  "homepage": "https://github.com/NextBoy/quill-image-extend-module#readme"
+  "homepage": "https://github.com/zhangguangyi/quill-image-extend-module#readme"
 }

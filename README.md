@@ -1,5 +1,5 @@
 # quill-image-extend-module 
-vue-quill-editor的增强模块，
+vue-quill-editor的增强模块，提供上传前压缩图片
 
 功能：
  - 提供图片上传到服务器的功能
