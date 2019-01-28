@@ -346,8 +346,11 @@ export function imgHandler() {
             reader.readAsDataURL(self.file)
             reader.onload = function(e) {
               img.src = this.result
+              if (/image\/gif/.test(this.result)) {
+                resolve()
+              }
               //判断图片是否大于100K,是就直接上传，反之压缩图片
-              if (this.result.length <= 100 * 1024) {
+              else if (this.result.length <= 100 * 1024) {
                 resolve()
               } else {
                 img.onload = function() {
